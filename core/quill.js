@@ -329,7 +329,8 @@ function expandConfig(container, userConfig) {
     modules: {
       clipboard: true,
       keyboard: true,
-      history: true
+      history: true,
+      draganddrop: true
     }
   }, userConfig);
   if (!userConfig.theme || userConfig.theme === Quill.DEFAULTS.theme) {
